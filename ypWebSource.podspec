@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "ypWebSource"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "ypWebSource for webKit load localResource example Document's image and video"
   spec.description  = <<-DESC
                     web加载本地资源，web加载沙盒中的资源。
@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "wangy330" => "523476884@qq.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/wangyp330/pgWebSource.git", :tag => "#{spec.version}" }
-  spec.source_files  = "pgWebSource", "pgWebSource/*.{h,m}"
+  spec.source_files  = "pgWebSource/DCWeb", "pgWebSource/DCWeb/*.{h,m}"
   spec.requires_arc = true
 end
