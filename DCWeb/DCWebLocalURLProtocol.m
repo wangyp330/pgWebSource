@@ -7,7 +7,6 @@
 //
 
 #import "DCWebLocalURLProtocol.h"
-#import "DCWebView.h"
 @implementation DCWebLocalURLProtocol
 
 + (BOOL)canInitWithRequest:(NSURLRequest*)request
