@@ -11,7 +11,7 @@
 
 + (BOOL)canInitWithRequest:(NSURLRequest*)request
 {
-    NSString *customScheme = [DCWebSourceScheme lowercaseString];
+    NSString *customScheme = @"webp";
     if ([request.URL.scheme caseInsensitiveCompare:customScheme] == NSOrderedSame) {
         return YES;
     }
