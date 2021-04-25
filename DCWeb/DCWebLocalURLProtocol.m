@@ -24,7 +24,7 @@
 }
 
 - (void)startLoading{
-    NSString *customScheme = [DCWebSourceScheme lowercaseString];
+    NSString *customScheme = @"";
     if ([self.request.URL.absoluteString containsString:customScheme]) {
         NSString *requestUrl = self.request.URL.absoluteString.lastPathComponent;
         NSString *resourcePath;
